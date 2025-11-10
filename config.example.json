@@ -1,0 +1,12 @@
+{
+  "url": "https://m.mi.com/page/some-coupon-event",
+  "click_selectors": ["text=立即领取", "css=.coupon-btn"],
+  "success_selectors": ["text=领取成功", "css=.coupon-success"],
+  "start_time": "2024-05-01T16:00:00+08:00",
+  "max_attempts": 300,
+  "pause_between_attempts": 0.03,
+  "wait_selector": "css=.coupon-container",
+  "cookies_path": "cookies.json",
+  "headless": false,
+  "timeout": 15000
+}
